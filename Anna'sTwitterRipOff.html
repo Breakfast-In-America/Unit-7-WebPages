@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anna's Twitter Rip Off</title>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<style>
+		#nav {
+			background-color: #e5d6f9;
+			border-left: 3px solid gray;
+			border-top: 3px solid gray;
+			border-right: 3px solid gray;
+		}
+
+		#leftsidebar {
+			background-color: #dabfff;
+			padding: 25px;
+			border-left: 3px solid gray;
+			border-top: 3px solid gray;
+			border-bottom: 3px solid gray;
+		}
+
+		#center {
+			background-color: #6b41a3;
+			color: white;
+			border-top: 3px solid gray;
+			border-right: 3px solid gray;
+			border-left: 3px solid gray;
+		}
+		#rightsidebar {
+			background-color: #dabfff;
+			border-right: 3px solid gray;
+			border-top: 3px solid gray;
+			border-bottom: 3px solid gray;
+		}
+		.post-image {
+			width: 125px;
+			height: 125px;
+			border-radius: 50%;
+		}
+		.textside {
+			border-bottom: 3px solid gray;
+		}
+		.imgside {
+			border-bottom: 3px solid gray;
+		}
+		#footer {
+			background-color: #e5d6f9;
+			border-left: 3px solid gray;
+			border-right: 3px solid gray;
+			border-bottom: 3px solid gray;
+		}
+		#navbar-ul {
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+		.navbar-li {
+			display: inline-block;
+			padding-right: 60px;
+			padding-left: 20px;
+			padding-top: 5px;
+			padding-bottom: 6px;
+			line-height: 30px;
+			font-size: 18px;
+			text-align: center;
+		}
+		.fa-twitter-square {
+			font-size: 28px;
+		}
+		#profile {
+			width: 250px;
+			height: 250px;
+			border-radius: 50%;
+		}
+		#name {
+			font-size: 30px;
+			text-align: center;
+		}
+		#name2 {
+			font-size: 18px;
+			text-align: center;
+		}
+		#description {
+			font-size: 15px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div id="nav" class="row">
+			<ul id="navbar-ul">
+				<li class="navbar-li"><i class="fab fa-twitter-square"></i>
+				<li class="navbar-li"><a href="https://twitter.com">Home</a></li>
+				<li class="navbar-li"><a href="https://twitter.com">Posts</a></li>
+				<li class="navbar-li"><a href="https://twitter.com">Profile</a></li>
+				<li class="navbar-li"><a href="https://twitter.com">Notifications</a></li>
+			</ul>
+		</div>
+		<div id="mainthingy" class="row">
+			<div id="leftsidebar" class="col-3">
+				<div>
+					<img id="profile" src="https://media1.fdncms.com/csindy/imager/arnold-layne/u/zoom/2746755/image_jpg-magnum.jpg">
+					<h1>    </h1>
+					<h2 id="name">Syd Barrett</h1>
+					<h3 id="name2">@real_syd_barrett</h2>
+					<p id="description">Former guitarist and song writer of Pink Floyd.</p>
+				</div>
+			</div>
+			<div id="center" class="col-6">
+				<div class="post row">
+					<div class="col-4 imgside">
+						<img class="post-image" src="https://media1.fdncms.com/csindy/imager/arnold-layne/u/zoom/2746755/image_jpg-magnum.jpg">
+					</div>
+					<div class="col-8 textside">
+						<p>Syd Barrett <a href="#">@real_syd_barrett</a> - 3/6/2018</p>
+						<p>Anyone need a guitarist? Please let me back in MY band <a href="#">#WishIWasThere</a></p>
+					</div>
+					<div class="col-4 imgside">
+						<img class="post-image" src="https://pbs.twimg.com/profile_images/604461865742290944/XSKaBe6k_400x400.jpg">
+					</div>
+					<div class="col-8 textside">
+						<p>Roger Waters <a href="#">@IAMTHEBEST</a> - 3/6/2018</p>
+						<p><a href="#">@GMour</a> also, Mr. "real Pink Floyd," who wrote all the songs?  Oh yes, I did <a href="#">#IamPinkFloyd</a></p>
+					</div>
+					<div class="col-4 imgside">
+						<img class="post-image" src="https://pbs.twimg.com/profile_images/604461865742290944/XSKaBe6k_400x400.jpg">
+					</div>
+					<div class="col-8 textside">
+						<p>Roger Waters <a href="#">@IAMTHEBEST</a> - 3/6/2018</p>
+						<p><a href="#">@GMour</a> At least I can still hit some notes and don't have to lip-synch <a href="#">#YouTryTooHardDavid</a></p>
+					</div>
+					<div class="col-4 imgside">
+						<img class="post-image" src="https://yt3.ggpht.com/-lrIPnOrwgOw/AAAAAAAAAAI/AAAAAAAAAAA/IaZ28YWffIY/s900-c-k-no-mo-rj-c0xffffff/photo.jpg">
+					</div>
+					<div class="col-8 textside">
+						<p>David Gilmour <a href="#">@GMour</a> - 3/6/2018</p>
+						<p>Heard Roger's going on tour again. I'm sure LOTS of people will go (lol jk) <a href="#">#RealPinkFloyd</a></p>
+					</div>
+
+				</div>
+			</div>
+				<div id="rightsidebar" class="col-3">
+					<p>This is le right side bar</p>
+				</div>
+		</div>
+		<div class="row">
+			<div id="footer" class="col-12">
+			<p>This is a footer</p>
+				</div>
+		</div>
+		</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+</body>
+</html>
